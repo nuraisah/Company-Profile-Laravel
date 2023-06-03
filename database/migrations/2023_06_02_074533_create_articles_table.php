@@ -18,12 +18,11 @@ class CreateArticlesTable extends Migration
             $table->string('title');
             $table->string('slug');
             $table->longText('content');
-            $table->enum('status',['PUBLISH','DRAFT']);
+            $table->enum('status',['PUBLISH', 'DRAFT']);
             $table->integer('create_by');
             $table->integer('update_by')->nullable();
             $table->integer('delete_by')->nullable();
-            $table->timestamps();
-        });
+            });
     }
 
     /**
@@ -34,5 +33,6 @@ class CreateArticlesTable extends Migration
     public function down()
     {
         Schema::dropIfExists('articles');
+        
     }
 }

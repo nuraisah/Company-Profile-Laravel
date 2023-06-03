@@ -18,7 +18,7 @@ class CreateArticleCategoryTable extends Migration
             $table->integer('article_id')->unsigned();
             $table->integer('category_id')->unsigned();
             $table->timestamps();
-
+            
             $table->foreign('article_id')->references('id')->on('articles');
             $table->foreign('category_id')->references('id')->on('categories');
 
