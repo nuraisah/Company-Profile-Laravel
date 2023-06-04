@@ -3,12 +3,20 @@
 @section('header')
     <style>
         .full-img {
-            background-position: center;
+          position: absolute;
+          width: 1920px;
+          height: 1024px;
+          left: 0px;
+          top: 1px;
+
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18));
+            /* background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            height: 180px;
+            height: 180px; */
         }
         #hero{
+          
             background: url('{{asset('user/images/main-bg.JPG')}}') top center;
         }
         .image-center{
@@ -21,9 +29,61 @@
 @endsection
 
 @section('hero')
-    <h1>Welcome to Jogja-Travel</h1>
-    <h2>Kami adalah agen travel terpercaya dan jaminan layanan perencanaan wisata yang mudah dan murah</h2>
-    <a href="#about" class="btn-get-started">Get Started</a>
+    <h1 style="
+width: 363px;
+height: 70px;
+
+/* Font/Minion Variable Concept/Bold/24 */
+
+font-family: 'Minion Variable Concept';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 146%;
+/* or 35px */
+
+text-align: right;
+letter-spacing: 0.12em;
+
+/* Color/414042 */
+
+color: #414042;
+
+text-shadow: 14px 24px 28px rgba(0, 0, 0, 0.25);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;">MAKE A DIFFERENT LOOK WITH SORA</h1>
+   
+    <a href="#about" class="btn-get-started" style="/* Frame 53 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 46px;
+gap: 10px;
+
+width: 163px;
+height: 45px;
+
+/* Color/414042 */
+
+background: #414042;
+border-radius: 49px;
+
+/* Font/Minion Variable Concept/Regular/20 */
+
+font-family: 'Minion Variable Concept';
+color: #FFFFFF;
+
+flex: none;
+order: 1;
+flex-grow: 0;">Look Us</a>
 @endsection
 
 
@@ -100,7 +160,7 @@
       <section id="category">
         <div class="container wow fadeInUp">
           <div class="section-header">
-            <h3 class="section-title">Blog Kami</h3>
+            <h3 class="section-title"></h3>
             <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
           </div>
           <div class="row">
