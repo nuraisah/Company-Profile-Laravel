@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Jogja Travel - Regna emplate</title>
+  <title>Sora Creative</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -12,8 +12,9 @@
   <link href="{{asset('user/images/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
-
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet"> -->
+  <link href="https://fonts.cdnfonts.com/css/minion-pro" rel="stylesheet">
+                
   <!-- Bootstrap CSS File -->
   <link href="{{asset('user/lib/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
@@ -42,7 +43,7 @@
       <div id="logo" class="pull-left">
         <a href="#hero">
           <img src="{{asset('user/images/icon.png')}}" style="margin-right:5px"/></img>
-          <h2 class="d-inline text-light">Jogja-Travel</h2>
+          <h2 class="d-inline text-light">Sora Creative</h2>
         </a>
       </div>
 
